@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "_PreLoginLayout";
+}
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Errand
+<section id="mainColumn">
+    <h2>Din anmälan av miljöbrott</h2>
+    <p class="label">
+        Vänligen läs igenom din anmälan och se att allt är okej.<br/>
+        Om något är fel, gå tillbaka och ändra. Annars välj Bekräfta.
+    </p>
+    <p>
+        <label class="label" asp-for="Place">Var har brottet skett någonstans?</label><br/>@Model.Place
+    </p>
+    <p>
+        <label class="label" asp-for="TypeOfCrime">Vilken typ av brott?</label><br/>@Model.TypeOfCrime
+    </p>
+    <p>
+        <label class="label" asp-for="DateOfObservation">När skedde brottet?</label><br/>@Model.DateOfObservation.ToShortDateString()
+    </p>
+    <p>
+        <label class="label" asp-for="InformerName">Ditt namn (för- och efternamn):</label><br/>@Model.InformerName
+    </p>
+    <p>
+        <label class="label" asp-for="InformerPhone">Din telefon:</label><br/>@Model.InformerPhone
+    </p>
+    <p>
+        <label class="label" asp-for="Observation">Mer information:</label><br/>@Model.Observation
+    </p>
+    <p>
+        <a class="button" asp-controller="Home" asp-action="Index" id="link">Tillbaka</a> <a class="button" asp-controller="Citizen" asp-action="Thanks">Bekräfta</a>
+    </p>
+</section><!-- End Left -->

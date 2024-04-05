@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "_LoginManagerLayout";
+}
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<Employee>
+
+<h2>Detaljer för ärendet</h2>
+<p class="info">Du är inloggad som @ViewBag.Username</p>
+@await Component.InvokeAsync("ErrandData", ViewBag.ID)
+
+<form asp-controller="Manager" asp-action="ChangeErrand" asp-route-id="@ViewBag.ID" method="post">
+    <section id="bottomColumn">
+        <h3>Redigera ärende</h3>
+        <p>
+            Ange handläggare:
+            <select name="investigator">
+                <option selected="selected">Välj</option>
+                @foreach (var investigator in Model)
+                {
+                    if (investigator.DepartmentId == ViewBag.DepartmentId)
+                    {
+                        <option value="@investigator.EmployeeId">@investigator.EmployeeName</option>
+                    }
+                }
+            </select>
+        </p>
+        <p><input type="checkbox" name="noAction" value="true"/> Ingen åtgärd: <input type="text" name="reason" value="Ange motivering"/></p>
+        <p>
+            <input class="button" type="submit" value="Spara"/>
+        </p>
+    </section>
+</form>

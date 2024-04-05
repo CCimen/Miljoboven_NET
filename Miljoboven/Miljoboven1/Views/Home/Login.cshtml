@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_PreLoginLayout";
+}
+@model LoginModel
+<section id="mainColumn">
+    <h2>Inloggning för Småstads personal</h2>
+    <p class="info">En säker tjänst från Småstads IT-avdelning</p>
+
+    <form asp-controller="Home" asp-action="Login" method="post">
+        <p>
+            <label asp-for="Username">Användarnamn:</label>
+            <input asp-for="Username"/>
+            <span asp-validation-for="Username"></span>
+        </p>
+        <p>
+            <label asp-for="Password">Lösenord:</label>
+            <input asp-for="Password"/>
+            <span asp-validation-for="Password"></span>
+        </p>
+        <p>
+            <input class="button" type="submit" value="Inloggning"/>
+            <br/>
+        </p>
+        <p>
+            <input type="hidden" asp-for="ReturnUrl"/>
+        </p>
+        <div asp-validation-summary="All"></div>
+    </form>
+</section><!-- End Left -->

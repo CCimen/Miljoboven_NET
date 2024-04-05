@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "_LoginCoordinatorLayout";
+}
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<Department>
+
+<h2>Detaljer för ärendet</h2>
+<p class="info">Du är inloggad som samordnare</p>
+
+@await Component.InvokeAsync("ErrandData", ViewBag.ID)
+
+<form asp-controller="Coordinator" asp-action="AddDepartmentID" asp-route-id="@ViewBag.ID" method="post">
+    <section id="bottomColumn">
+        <h3>Redigera ärende</h3>
+        <p>
+            Ange enhet:
+            <select name="department">
+                <option selected="selected">Välj</option>
+                @foreach (var department in Model)
+                {
+                    if (department.DepartmentName != "Småstads kommun")
+                    {
+                        <option value="@department.DepartmentId">@department.DepartmentName</option>
+                    }
+                }
+            </select>
+        </p>
+        <p>
+            @*Fixa så att inget händer när man tycker på spara om "välj" är valt, det kraschar nu*@
+            <input class="button" type="submit" value="Spara"/>
+        </p>
+    </section>
+</form>

@@ -1,0 +1,153 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/background.png",
+      "PackagePath": "staticwebassets/images/background.png"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/background_darker.png",
+      "PackagePath": "staticwebassets/images/background_darker.png"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/button.png",
+      "PackagePath": "staticwebassets/images/button.png"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/buttonHover.png",
+      "PackagePath": "staticwebassets/images/buttonHover.png"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/imagetest.jpg",
+      "PackagePath": "staticwebassets/images/imagetest.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/login.png",
+      "PackagePath": "staticwebassets/images/login.png"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/logout.png",
+      "PackagePath": "staticwebassets/images/logout.png"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/menu.png",
+      "PackagePath": "staticwebassets/images/menu.png"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/menuHover.png",
+      "PackagePath": "staticwebassets/images/menuHover.png"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/pdficon_large.gif",
+      "PackagePath": "staticwebassets/images/pdficon_large.gif"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/pic_1.jpg",
+      "PackagePath": "staticwebassets/images/pic_1.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/pic_2.jpg",
+      "PackagePath": "staticwebassets/images/pic_2.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/pic_3.jpg",
+      "PackagePath": "staticwebassets/images/pic_3.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/pic_4.jpg",
+      "PackagePath": "staticwebassets/images/pic_4.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/pic_5.jpg",
+      "PackagePath": "staticwebassets/images/pic_5.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/pic_6.jpg",
+      "PackagePath": "staticwebassets/images/pic_6.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/pic_7.jpg",
+      "PackagePath": "staticwebassets/images/pic_7.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/pic_8.jpg",
+      "PackagePath": "staticwebassets/images/pic_8.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/report.png",
+      "PackagePath": "staticwebassets/images/report.png"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/images/report_add.png",
+      "PackagePath": "staticwebassets/images/report_add.png"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/stylesheet/style.css",
+      "PackagePath": "staticwebassets/stylesheet/style.css"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-pictures/8721c12b-021f-49e2-9e61-0f5293b6c4ba_newUploadPic.jpg",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-pictures/8721c12b-021f-49e2-9e61-0f5293b6c4ba_newUploadPic.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-pictures/bf3bb128-c266-478c-9abd-24fe336de039_yeni.jpg",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-pictures/bf3bb128-c266-478c-9abd-24fe336de039_yeni.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-pictures/c23f6829-7f14-4841-a092-86852c4135a3_yeni.jpg",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-pictures/c23f6829-7f14-4841-a092-86852c4135a3_yeni.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-pictures/c262d4fd-510d-4f4b-8523-945b8133f60b_bubble-nebula-2560x1600_94698-mm-90.jpg",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-pictures/c262d4fd-510d-4f4b-8523-945b8133f60b_bubble-nebula-2560x1600_94698-mm-90.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-pictures/e72506c6-93c3-464a-b549-dc3e830a5466_yeni.jpg",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-pictures/e72506c6-93c3-464a-b549-dc3e830a5466_yeni.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-pictures/f935ed5d-595b-4dc1-9bf0-50aec4fdcb0b_newUploadPic.jpg",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-pictures/f935ed5d-595b-4dc1-9bf0-50aec4fdcb0b_newUploadPic.jpg"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-samples/1c1f4a5b-444d-4947-8a39-060e16e59d13_QiP1_Grupp5.pdf",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-samples/1c1f4a5b-444d-4947-8a39-060e16e59d13_QiP1_Grupp5.pdf"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-samples/210e8525-13b5-4412-80fb-8745f423ccb0_OWAST Top 10 CheatSheet.pdf",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-samples/210e8525-13b5-4412-80fb-8745f423ccb0_OWAST Top 10 CheatSheet.pdf"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-samples/25454e0a-d85a-47eb-8253-78a82a1eb69b_QiP2_Grupp2.pdf",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-samples/25454e0a-d85a-47eb-8253-78a82a1eb69b_QiP2_Grupp2.pdf"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-samples/5311527e-fa5e-401f-85bc-dfc969151463_QiP1_Grupp5.pdf",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-samples/5311527e-fa5e-401f-85bc-dfc969151463_QiP1_Grupp5.pdf"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-samples/842bd82b-cbb2-4f6c-bc47-bff730ea907e_QiP1_Grupp2.pdf",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-samples/842bd82b-cbb2-4f6c-bc47-bff730ea907e_QiP1_Grupp2.pdf"
+    },
+    {
+      "Id": "/Users/xethus/Downloads/Miljoboven_caci3264/Miljoboven1/wwwroot/uploaded-files/uploaded-samples/ee72a460-b6e7-4913-bd38-776b6595747d_QiP1_Grupp5.pdf",
+      "PackagePath": "staticwebassets/uploaded-files/uploaded-samples/ee72a460-b6e7-4913-bd38-776b6595747d_QiP1_Grupp5.pdf"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.Miljoboven2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.Miljoboven2.props",
+      "PackagePath": "build\\Miljoboven2.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Miljoboven2.props",
+      "PackagePath": "buildMultiTargeting\\Miljoboven2.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Miljoboven2.props",
+      "PackagePath": "buildTransitive\\Miljoboven2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

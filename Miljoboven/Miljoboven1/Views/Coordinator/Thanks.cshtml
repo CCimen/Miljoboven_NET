@@ -1,0 +1,13 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_LoginCoordinatorLayout";
+}
+<h2>Tack för din anmälan</h2>
+
+@*//Add the samordnare text inside the invokeasync as citizen shouldnt have that text*@
+
+@await Component.InvokeAsync("Thanks")
+<p class="info">Du är inloggad som samordnare</p>
+<p>
+    <a class="button" asp-controller="Coordinator" asp-action="StartCoordinator">Avsluta rapporteringen</a>
+</p>

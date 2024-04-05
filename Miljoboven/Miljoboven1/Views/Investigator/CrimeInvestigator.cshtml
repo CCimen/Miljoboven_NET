@@ -1,0 +1,42 @@
+﻿@{
+    Layout = "_LoginInvestigatorLayout";
+}
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<ErrandStatus>
+
+<h2>Detaljer för ärendet</h2>
+<p class="info">Du är inloggad som handläggare</p>
+
+@await Component.InvokeAsync("ErrandData", ViewBag.ID)
+
+
+<!--Nedan ser man en lista på ärenden-->
+<form asp-controller="Investigator" asp-action="ChangeErrand" asp-route-id="@ViewBag.ID" method="post" enctype="multipart/form-data">
+    <section id="bottomColumn">
+        <h3>Redigera ärende</h3>
+        <p class="label">Händelser:</p>
+        <textarea name="events" rows="5" cols="60"></textarea>
+
+        <p class="label">Mer information:</p>
+        <textarea name="information" rows="5" cols="60"></textarea>
+
+        <p class="label">Prover:</p>
+        <input type="file" name="uploadSample"/>
+
+        <p class="label">Ladda upp bilder:</p>
+        <input type="file" name="uploadImage"/>
+
+        <p class="label">Ändring av status:</p>
+        <select name="status">
+            <option selected="selected">Välj</option>
+            @foreach (var errandStatuses in Model)
+            {
+                <option value="@errandStatuses.StatusId">@errandStatuses.StatusName</option>
+            }
+        </select>
+
+        <p>
+            <input class="button" type="submit" value="Spara ändringarna"/>
+        </p>
+    </section>
+</form>

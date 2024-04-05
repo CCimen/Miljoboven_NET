@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="wwwroot\images\background.png" />
+        <None Include="wwwroot\images\background_darker.png" />
+        <None Include="wwwroot\images\button.png" />
+        <None Include="wwwroot\images\buttonHover.png" />
+        <None Include="wwwroot\images\imagetest.jpg" />
+        <None Include="wwwroot\images\login.png" />
+        <None Include="wwwroot\images\logout.png" />
+        <None Include="wwwroot\images\menu.png" />
+        <None Include="wwwroot\images\menuHover.png" />
+        <None Include="wwwroot\images\pdficon_large.gif" />
+        <None Include="wwwroot\images\pic_1.jpg" />
+        <None Include="wwwroot\images\pic_2.jpg" />
+        <None Include="wwwroot\images\pic_3.jpg" />
+        <None Include="wwwroot\images\pic_4.jpg" />
+        <None Include="wwwroot\images\pic_5.jpg" />
+        <None Include="wwwroot\images\pic_6.jpg" />
+        <None Include="wwwroot\images\pic_7.jpg" />
+        <None Include="wwwroot\images\pic_8.jpg" />
+        <None Include="wwwroot\images\report.png" />
+        <None Include="wwwroot\images\report_add.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.10" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\uploaded-files\uploaded-pictures" />
+      <Folder Include="wwwroot\uploaded-files\uploaded-samples" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Views\Shared\Components\Thanks\Default.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Shared\Components\Thanks\Default.cshtml" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,108 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Miljoboven2
+build_property.RootNamespace = Miljoboven2
+build_property.ProjectDir = C:\Users\cagri\OneDrive\Documents\c#Projects\Miljoboven1 - Copy\Miljoboven1\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\cagri\OneDrive\Documents\c#Projects\Miljoboven1 - Copy\Miljoboven1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/citizen/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2l0aXplblxjb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/citizen/faq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2l0aXplblxmYXEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/citizen/services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2l0aXplblxzZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/citizen/thanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2l0aXplblx0aGFua3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/citizen/validate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2l0aXplblx2YWxpZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/coordinator/crimeCoordinator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29vcmRpbmF0b3JcY3JpbWVDb29yZGluYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/coordinator/reportCrime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29vcmRpbmF0b3JccmVwb3J0Q3JpbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/coordinator/StartCoordinator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29vcmRpbmF0b3JcU3RhcnRDb29yZGluYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/coordinator/thanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29vcmRpbmF0b3JcdGhhbmtzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/coordinator/validate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29vcmRpbmF0b3JcdmFsaWRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/investigator/crimeInvestigator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW52ZXN0aWdhdG9yXGNyaW1lSW52ZXN0aWdhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/investigator/StartInvestigator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW52ZXN0aWdhdG9yXFN0YXJ0SW52ZXN0aWdhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/manager/crimeManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWFuYWdlclxjcmltZU1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/manager/StartManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWFuYWdlclxTdGFydE1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/Shared/_BoilerPlateLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb2lsZXJQbGF0ZUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/Shared/_LoginCoordinatorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkNvb3JkaW5hdG9yTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/Shared/_LoginInvestigatorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkludmVzdGlnYXRvckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/Shared/_LoginManagerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbk1hbmFnZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/Shared/_PreLoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QcmVMb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cagri/OneDrive/Documents/c\#Projects/Miljoboven1 - Copy/Miljoboven1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

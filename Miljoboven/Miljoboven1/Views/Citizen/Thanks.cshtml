@@ -1,0 +1,12 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "_PreLoginLayout";
+}
+
+<section id="mainColumn">
+    @await Component.InvokeAsync("Thanks")
+    <p>
+        <a class="button" asp-controller="Home" asp-action="Index">Avsluta</a>
+    </p>
+</section><!-- End Left -->

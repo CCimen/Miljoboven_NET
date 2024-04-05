@@ -1,0 +1,77 @@
+﻿@{
+    Layout = "_LoginManagerLayout";
+}
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IMiljobovenRepository
+
+<h2>Ärenden</h2>
+<p class="info">Du är inloggad som @ViewBag.Username</p>
+
+<table id="managerForm">
+    <tr>
+        <td class="label">Välj status:</td>
+        <td class="label">Välj handläggare:</td>
+        <td>&nbsp;</td>
+        <td class="label">Ärendenummer:</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>
+            <select name="status">
+                <option selected="selected">Välj alla</option>
+                @foreach (var errandStatuses in Model.ErrandStatuses)
+                {
+                    <option value="@errandStatuses.StatusId">@errandStatuses.StatusName</option>
+                }
+            </select>
+        </td>
+        <td>
+            <select name="investigator">
+                <option selected="selected">Välj alla</option>
+                @foreach (var investigator in Model.Employees)
+                {
+                    if (investigator.DepartmentId == ViewBag.DepartmentId)
+                    {
+                        <option value="@investigator.EmployeeId">@investigator.EmployeeName</option>
+                    }
+                }
+            </select>
+        </td>
+        <td>
+            <input class="button" type="submit" value="Hämta lista"/>
+        </td>
+        <td>
+            <input name="casenumber"/>
+        </td>
+        <td>
+            <input class="button" type="submit" value="Sök"/>
+        </td>
+    </tr>
+</table>
+
+<!--Updated so we use the GetErrands method here instead of ManagerErrands-->
+<table>
+    <tr>
+        <th>Ärende anmält</th>
+        <th>Ärendenummer</th>
+        <th>Miljöbrott</th>
+        <th>Status</th>
+        <th>Avdelning</th>
+        <th>Handläggare</th>
+    </tr>
+    @foreach (var errand in Model.GetErrands("DepartmentName:" + ViewBag.DepartmentName))   
+    {
+        <tr>
+            <td>@errand.DateOfObservation.ToShortDateString()</td>
+            <td>
+                <a asp-controller="Manager" asp-action="CrimeManager" asp-route-id="@errand.ErrandId">@errand.RefNumber</a>
+            </td>
+            <td>@errand.TypeOfCrime</td>
+            <td>@errand.StatusName</td>
+            <td>@errand.DepartmentName</td>
+            <td>@errand.EmployeeName</td>
+        </tr>
+    }
+
+
+</table>

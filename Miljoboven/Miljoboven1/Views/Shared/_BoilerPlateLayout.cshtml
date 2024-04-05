@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html xml:lang="sv" lang="sv">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Småstads kommun</title>
+    <link rel="stylesheet" href="~/stylesheet/style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+    <header id="logo">
+        <h1>Småstad</h1>
+        <p>Kommunen där vi bryr oss om varandra</p>
+    </header><!-- End header -->
+
+    @RenderBody()
+
+
+    <footer>
+        &copy; Småstads Kommun All rights reserved.
+    </footer>
+</div><!-- End content -->
+</div><!-- End wrapper -->
+</body>
+</html>
